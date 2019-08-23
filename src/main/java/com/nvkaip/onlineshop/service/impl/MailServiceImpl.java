@@ -21,8 +21,8 @@ public class MailServiceImpl implements MailService {
     private final Logger logger = LoggerFactory.getLogger(MailServiceImpl.class);
     @Override
     public void sendConfirmCode(Code code) {
-        final String username = "11owlkid11@gmail.com";
-        final String password = "12345678kid";
+        final String username = ""; //your gmail email
+        final String password = ""; //your gmail password
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.port", "587");
