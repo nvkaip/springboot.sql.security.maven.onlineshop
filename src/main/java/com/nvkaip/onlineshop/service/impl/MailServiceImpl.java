@@ -1,11 +1,10 @@
-package com.service.impl;
+package com.nvkaip.onlineshop.service.impl;
 
-import com.entity.Code;
-import com.service.MailService;
+import com.nvkaip.onlineshop.entity.Code;
+import com.nvkaip.onlineshop.service.MailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-
 import javax.mail.Authenticator;
 import javax.mail.Message;
 import javax.mail.MessagingException;

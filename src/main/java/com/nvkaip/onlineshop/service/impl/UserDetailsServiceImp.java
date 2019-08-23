@@ -1,7 +1,7 @@
-package com.service.impl;
+package com.nvkaip.onlineshop.service.impl;
 
-import com.entity.User;
-import com.service.UserService;
+import com.nvkaip.onlineshop.entity.User;
+import com.nvkaip.onlineshop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

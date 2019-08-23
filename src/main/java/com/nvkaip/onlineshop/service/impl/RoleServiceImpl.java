@@ -1,12 +1,11 @@
-package com.service.impl;
+package com.nvkaip.onlineshop.service.impl;
 
-import com.entity.Role;
-import com.repository.RoleRepository;
-import com.service.RoleService;
+import com.nvkaip.onlineshop.entity.Role;
+import com.nvkaip.onlineshop.repository.RoleRepository;
+import com.nvkaip.onlineshop.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 import java.util.Optional;
 

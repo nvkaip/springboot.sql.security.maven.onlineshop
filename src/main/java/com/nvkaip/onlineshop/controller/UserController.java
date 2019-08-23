@@ -1,9 +1,9 @@
-package com.controller;
+package com.nvkaip.onlineshop.controller;
 
-import com.entity.Role;
-import com.entity.User;
-import com.service.RoleService;
-import com.service.UserService;
+import com.nvkaip.onlineshop.entity.Role;
+import com.nvkaip.onlineshop.entity.User;
+import com.nvkaip.onlineshop.service.RoleService;
+import com.nvkaip.onlineshop.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;

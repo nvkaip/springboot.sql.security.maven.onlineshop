@@ -1,4 +1,4 @@
-package com.util;
+package com.nvkaip.onlineshop.util;
 
 import org.apache.commons.lang.RandomStringUtils;
 

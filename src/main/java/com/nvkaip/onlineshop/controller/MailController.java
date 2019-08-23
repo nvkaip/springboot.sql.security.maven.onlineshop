@@ -1,10 +1,10 @@
-package com.controller;
+package com.nvkaip.onlineshop.controller;
 
-import com.entity.Code;
-import com.entity.Order;
-import com.entity.User;
-import com.service.MailService;
-import com.service.OrderService;
+import com.nvkaip.onlineshop.entity.Code;
+import com.nvkaip.onlineshop.entity.Order;
+import com.nvkaip.onlineshop.entity.User;
+import com.nvkaip.onlineshop.service.MailService;
+import com.nvkaip.onlineshop.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
@@ -12,7 +12,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.Optional;
 
 @Controller

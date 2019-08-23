@@ -1,13 +1,11 @@
-package com.service.impl;
+package com.nvkaip.onlineshop.service.impl;
 
-import com.entity.Basket;
-import com.entity.Product;
-import com.repository.BasketRepository;
-import com.service.BasketService;
+import com.nvkaip.onlineshop.entity.Basket;
+import com.nvkaip.onlineshop.entity.Product;
+import com.nvkaip.onlineshop.repository.BasketRepository;
+import com.nvkaip.onlineshop.service.BasketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 import java.util.Optional;
 
@@ -21,31 +19,26 @@ public class BasketServiceImpl implements BasketService {
         this.basketRepository = basketRepository;
     }
 
-    @Transactional
     @Override
     public List<Basket> getAll() {
         return basketRepository.findAll();
     }
 
-    @Transactional
     @Override
     public void saveBasket(Basket basket) {
         basketRepository.save(basket);
     }
 
-    @Transactional
     @Override
     public Optional<Basket> getBasketById(Long basketId) {
         return basketRepository.findById(basketId);
     }
 
-    @Transactional
     @Override
     public Optional<Basket> getBasketByUserId(Long userId) {
         return basketRepository.getBasketByUserId(userId);
     }
 
-    @Transactional
     @Override
     public void clearBasket(Long basketId) {
         if (getBasketById(basketId).isPresent()) {
@@ -55,14 +48,12 @@ public class BasketServiceImpl implements BasketService {
         }
     }
 
-    @Transactional
     @Override
     public void addProduct(Basket basket, Product product) {
         basket.getProductsList().add(product);
         basketRepository.save(basket);
     }
 
-    @Transactional
     @Override
     public void removeProduct(Basket basket, Product product) {
         basket.getProductsList().remove(product);

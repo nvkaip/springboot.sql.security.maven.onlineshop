@@ -1,6 +1,6 @@
-package com.service;
+package com.nvkaip.onlineshop.service;
 
-import com.entity.Code;
+import com.nvkaip.onlineshop.entity.Code;
 import java.util.List;
 import java.util.Optional;
 

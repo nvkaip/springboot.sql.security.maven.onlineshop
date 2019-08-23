@@ -1,12 +1,13 @@
-package com.controller;
+package com.nvkaip.onlineshop.controller;
 
-import com.entity.Basket;
-import com.entity.Code;
-import com.entity.Order;
-import com.entity.User;
-import com.service.BasketService;
-import com.service.CodeService;
-import com.service.OrderService;
+import com.nvkaip.onlineshop.entity.Basket;
+import com.nvkaip.onlineshop.entity.Code;
+import com.nvkaip.onlineshop.entity.Order;
+import com.nvkaip.onlineshop.entity.User;
+import com.nvkaip.onlineshop.service.BasketService;
+import com.nvkaip.onlineshop.service.CodeService;
+import com.nvkaip.onlineshop.service.OrderService;
+import com.nvkaip.onlineshop.util.CodeGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.util.CodeGenerator;
-
 import java.util.Optional;
 
 @Controller

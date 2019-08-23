@@ -1,7 +1,7 @@
-package com.controller;
+package com.nvkaip.onlineshop.controller;
 
-import com.entity.Product;
-import com.service.ProductService;
+import com.nvkaip.onlineshop.entity.Product;
+import com.nvkaip.onlineshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.Optional;
 
 @Controller

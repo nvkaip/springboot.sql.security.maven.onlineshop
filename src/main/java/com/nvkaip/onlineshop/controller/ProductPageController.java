@@ -1,6 +1,6 @@
-package com.controller;
+package com.nvkaip.onlineshop.controller;
 
-import com.service.ProductService;
+import com.nvkaip.onlineshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

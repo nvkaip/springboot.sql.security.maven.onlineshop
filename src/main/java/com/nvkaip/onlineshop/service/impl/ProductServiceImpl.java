@@ -1,12 +1,11 @@
-package com.service.impl;
+package com.nvkaip.onlineshop.service.impl;
 
-import com.entity.Product;
-import com.repository.ProductRepository;
-import com.service.ProductService;
+import com.nvkaip.onlineshop.entity.Product;
+import com.nvkaip.onlineshop.repository.ProductRepository;
+import com.nvkaip.onlineshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 import java.util.Optional;
 

@@ -1,6 +1,6 @@
-package com.controller;
+package com.nvkaip.onlineshop.controller;
 
-import com.entity.User;
+import com.nvkaip.onlineshop.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

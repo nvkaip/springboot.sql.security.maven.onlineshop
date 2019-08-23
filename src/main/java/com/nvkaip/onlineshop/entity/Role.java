@@ -1,4 +1,4 @@
-package com.entity;
+package com.nvkaip.onlineshop.entity;
 
 import org.hibernate.annotations.NaturalId;
 import org.springframework.security.core.GrantedAuthority;
